@@ -1,2 +1,2 @@
 # Scrimba-React-course
-https://scrimba.com/learn/learnreact
+1. React Info site - https://abhishake21-react-facts.netlify.app
