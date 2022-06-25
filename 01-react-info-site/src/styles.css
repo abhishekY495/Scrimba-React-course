@@ -1,0 +1,99 @@
+body {
+    background-color: #282D35;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+h1,h2,h3,p {
+    margin: 0;
+    padding: 0;
+}
+
+/*  */
+
+h1 {
+    font-size: 2.5rem;
+}
+
+li {
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background: #21222A;
+    font-size: 1.5rem;
+}
+nav h4 {
+    font-weight: 400;
+}
+nav h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    padding-left: 0.5rem;
+    color: #61DAFB;
+}
+
+.main-content {
+    padding: 1rem 3rem;
+    background-image: url('./images/react-background.png');
+    background-repeat: no-repeat;
+    background-position: right 80%;
+    background-size: 10rem;
+}
+.main-content--title {
+    font-size: 3.5rem;
+    margin: 1.5rem 0;
+}
+
+ul {
+    padding-left: 3rem;
+}
+li {
+    padding-block: 0.8rem;
+}
+
+li::marker {
+    color: #61DAFB;
+    font-size: 1.6rem;
+}
+
+@media (max-width:700px) {
+    .main-content--title {
+        font-size: 2.8rem;
+    }
+    nav, .main-content {
+        padding: 0.5rem 1rem;
+    }
+    nav h4 {
+        display: none;
+    }
+}
+
+@media (max-width:550px) {
+    nav h2{
+        font-size: 1.7rem;
+    }
+    .main-content--title {
+        font-size: 2rem;
+    }
+    ul {
+        padding-left: 1.8rem;
+    }
+    li {
+        font-size: 1.3rem;
+    }
+}
