@@ -5,7 +5,7 @@ export default function About() {
       <p className="about-para">
         I am a frontend developer and Iv'e had the pleasure of working with
         multiple Fortune 500 companies, implementing and destroying both their
-        frontend and backend.
+        Frontend and Backend.
       </p>
     </div>
   );
