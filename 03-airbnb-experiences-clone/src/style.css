@@ -82,3 +82,85 @@ nav {
     border-radius: 0.8rem;
     font-weight: bold;
 }
+
+
+@media (max-width:1070px) {
+    .hero-title{
+        font-size: 4rem;
+    }
+    .hero-info {
+        font-size: 2.3rem;
+        max-width: 100%;
+    }
+    .hero-text {
+        padding: 0 1.5rem;
+    }
+    .cards {
+        padding: 0 1.5rem 2rem 1.5rem;
+    }
+}
+
+@media (max-width:850px) {
+    .photo-grid {
+        width: 90%;
+    }
+}
+
+@media (max-width:661px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+    .hero-info {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .card {
+        max-width: 230px;
+    }
+    nav {
+        padding: 0.8rem 2rem;
+    }
+}
+
+@media (max-width:509px) {
+    .hero-title {
+        font-size: 2.3rem;
+        /* line-height: 0.5rem; */
+    }
+    .hero-info {
+        font-size: 1.5rem;
+    }
+    .card {
+        max-width: 180px;
+    }
+    .photo-grid {
+        margin: 0.8rem auto;
+    }
+    .hero-text {
+        padding: 0.8rem;
+    }
+    .cards {
+        padding: 0 0.8rem 1rem 0.8rem;
+    }
+    nav {
+        padding: 0.8rem;
+    }
+    .nav-logo {
+        width: 7.5rem;
+    }
+}
+
+@media (max-width:380px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    .hero-info {
+        font-size: 1.4rem;
+    }
+    .card {
+        max-width: 150px;
+    }
+    .cards {
+        gap: 1.5rem;
+    }
+}
