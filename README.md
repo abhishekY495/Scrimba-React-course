@@ -11,4 +11,4 @@
 
 6. React useState project - [Live site](https://abhishake21-use-state.netlify.app)
 
-7. Meme Generator - [Live](https://abhishake21-meme-generator.netlify.app)
+7. Meme Generator - [Live site](https://abhishake21-meme-generator.netlify.app)
