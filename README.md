@@ -6,3 +6,5 @@
 3. React Props project - [Live site](https://abhishake21-react-props.netlify.app)
 
 4. Airbnb Experiences Clone - [Live site](https://abhishake21-airbnb-exp.netlify.app)
+
+5. My Travel Journal - [Live site](https://abhishake21-travel-journal.netlify.app)
