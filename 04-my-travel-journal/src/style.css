@@ -38,7 +38,6 @@ nav {
     gap: 1.5rem;
 }
 
-
 .location-card {
     display: flex;
     align-items: center;
@@ -59,6 +58,7 @@ nav {
 .geo-location {
     display: flex;
     align-items: center;
+    margin-bottom: 0.2rem;
 }
 .geo-location img {
     padding-right: 0.1rem;
@@ -89,4 +89,70 @@ nav {
 .location-description {
     font-size: 1.15rem;
     line-height: 1.7rem;
+}
+
+@media (max-width:780px) {
+    .location-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:732px) {
+    .location-title {
+        margin-bottom: 1.2rem;
+    }
+    .location-description {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media (max-width:692px) {
+    .location-img img {
+        width: 10.5rem;
+        height: 18rem;
+        border-radius: 0.8rem;
+    }
+    .location-data .location {
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+        padding-right: 1rem;
+    }
+    .location-title {
+        font-size: 2.2rem;
+        margin-bottom: 0rem;
+        line-height: 2.8rem;
+    }
+    .google-maps {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:600px) {
+    .google-maps {
+        display: none;
+    }
+    .location-img img {
+        width: 100%;
+        height: 20rem;
+    }
+    .location-card {
+        display: grid;
+    }
+    .location-data {
+        padding: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .locations {
+        margin: 0.5rem auto;
+    }
+    .location-card {
+        border-bottom: 2px solid gray;
+    }
+}
+
+@media (max-width:344px) {
+    nav {
+        padding: 1.2rem 0.5rem;
+    }
 }
