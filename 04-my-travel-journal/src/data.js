@@ -48,5 +48,35 @@ export default [
         endDate: "18 Nov, 2022",
         description: "Moraine Lake is a glacially fed lake in Banff National Park, 14 kilometres outside the village of Lake Louise, Alberta, Canada. It is situated in the Valley of the Ten Peaks, at an elevation of approximately 1,884 metres.",
         imageUrl: "https://images.unsplash.com/photo-1511525499366-bc3f823bacb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+        id: 6,
+        title: "Giant's Causeway",
+        location: "Ireland",
+        googleMapsUrl: "https://goo.gl/maps/3BukMriLb5yvWGcv8",
+        startDate: "19 Dec, 2022",
+        endDate: "25 Dec, 2022",
+        description: "The Giant's Causeway is an area of about 40,000 interlocking jagged promontory of neatly packed columns of hexagonal basalt rocks created some 6 million years ago by a flow of basaltic lava.",
+        imageUrl: "https://images.unsplash.com/photo-1609430403542-d371d9a3bd84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+    },
+    {
+        id: 7,
+        title: "Pamukkale",
+        location: "Turkey",
+        googleMapsUrl: "https://goo.gl/maps/3BukMriLb5yvWGcv8",
+        startDate: "02 Feb, 2023",
+        endDate: "15 Mar, 2023",
+        description: "Pamukkale is a town in western Turkey known for the mineral-rich thermal waters flowing down white travertine terraces on a nearby hillside. It neighbors Hierapolis, an ancient Roman spa city founded around 190 B.C.",
+        imageUrl: "https://images.unsplash.com/photo-1595846415458-404defd93fb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+    },
+    {
+        id: 7,
+        title: "Glass Beach",
+        location: "California",
+        googleMapsUrl: "https://goo.gl/maps/qPDy3Q7M8UertSha6",
+        startDate: "06 May, 2023",
+        endDate: "20 Jun, 2023",
+        description: "Glass Beach is a beach near Fort Bragg, California, named from a time when it was abundant with sea glass created from years of dumping garbage into an area of coastline near the northern part of the town.",
+        imageUrl: "https://images.unsplash.com/photo-1547627249-87f0a2b0624a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
     }
 ]
