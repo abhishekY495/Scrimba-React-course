@@ -1,5 +1,3 @@
-# Scrimba-React-course
-
 ## Main Projects
 1. React Info site - [Live site](https://abhishake21-react-facts.netlify.app)
 
@@ -12,9 +10,11 @@
 5. Meme Generator - [Live site](https://abhishake21-meme-generator.netlify.app)
 
 
-## React concepts Projects
+## React concepts projects
 - Props project - [Live site](https://abhishake21-react-props.netlify.app)
 
 - useState project - [Live site](https://abhishake21-use-state.netlify.app)
+
+- useEffect project - [Live site](https://abhishake21-use-effect.netlify.app)
 
 - Forms project - [Live site](https://abhishake21-react-forms.netlify.app)
