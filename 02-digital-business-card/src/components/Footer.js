@@ -5,13 +5,13 @@ import linkedinLogo from "../images/linkedin.svg";
 export default function Footer() {
     return (
         <footer>
-            <a href="https://twitter.com/abhishake21">
+            <a href="https://twitter.com/abhishekY495">
                 <img className='footer-logo' src={twitterLogo} alt="twitter" />
             </a>
-            <a href="https://github.com/abhishake21">
+            <a href="https://github.com/abhishekY495">
                 <img className='footer-logo' src={githubLogo} alt="github" />
             </a>
-            <a href="https://linkedin.com/in/abhishake21-yadav/">
+            <a href="https://linkedin.com/in/abhishekY495">
                 <img className='footer-logo' src={linkedinLogo} alt="linkedin" />
             </a>
         </footer>
